@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC College</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f3f7fb;
+      color: #222;
+    }
+
+    header {
+      background-color: #164b78;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    nav {
+      background-color: #103653;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    .banner {
+      background-color: #dceeff;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+
+    section {
+      background-color: white;
+      margin: 16px 0;
+      padding: 18px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #164b78;
+    }
+
+    .course {
+      background-color: #eef5fb;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #103653;
+      color: white;
+      text-align: center;
+      padding: 12px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 6px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ABC College of Engineering</h1>
+    <p>Learn, Grow, Succeed</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="banner">
+    <h2>Welcome to ABC College</h2>
+    <p>Building knowledge and skills for a brighter future.</p>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Our College</h2>
+      <p>ABC College provides students with quality education and opportunities to learn new skills.</p>
+    </section>
+
+    <section id="courses">
+      <h2>Our Courses</h2>
+
+      <div class="course">
+        <h3>Computer Science Engineering</h3>
+        <p>Learn programming, computers, and software development.</p>
+      </div>
+
+      <div class="course">
+        <h3>Mechanical Engineering</h3>
+        <p>Learn about machines, design, and manufacturing.</p>
+      </div>
+
+      <div class="course">
+        <h3>Electrical Engineering</h3>
+        <p>Learn about electricity, circuits, and electrical systems.</p>
+      </div>
+    </section>
+
+    <section id="facilities">
+      <h2>Campus Facilities</h2>
+      <ul>
+        <li>Library</li>
+        <li>Computer laboratories</li>
+        <li>Sports ground</li>
+        <li>College cafeteria</li>
+      </ul>
+    </section>
+
+    <section id="admissions">
+      <h2>Admissions</h2>
+      <p>Students can apply for admission by visiting the college office or college website.</p>
+      <p>Please contact the college for admission dates and requirements.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@abccollege.edu</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Address: Your City, Your State</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 ABC College of Engineering</p>
+  </footer>
+</body>
+</html>
