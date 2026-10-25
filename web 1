@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6ff;
+      color: #222;
+      margin: 0;
+    }
+
+    header {
+      background-color: #2457a7;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    nav {
+      background-color: #183d78;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+
+    section {
+      background-color: white;
+      margin: 16px 0;
+      padding: 18px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #2457a7;
+    }
+
+    footer {
+      background-color: #183d78;
+      color: white;
+      text-align: center;
+      padding: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Hi, I'm Rahul</h1>
+    <p>First-Year B.Tech Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a first-year engineering student who is learning web development.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>B.Tech,  Branch —  College Name</p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Problem solving</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My Hobbies</h2>
+      <p>Reading, music, sports, and learning new things.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: yourname@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 rahul</p>
+  </footer>
+</body>
+</html>
